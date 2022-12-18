@@ -1,3 +1,7 @@
+from os import system
+
+system("pip3 install pyrogram opencv-python")
+
 from pyrogram import Client
 from time import time, sleep, gmtime, strftime
 from cv2 import getTextSize, putText, imwrite, FONT_HERSHEY_COMPLEX
