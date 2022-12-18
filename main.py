@@ -1,6 +1,6 @@
 from os import system
 
-system("pip3 install pyrogram opencv-python")
+system("pip3 install Pyrogram opencv-contrib-python")
 
 from pyrogram import Client
 from time import time, sleep, gmtime, strftime
