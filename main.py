@@ -1,6 +1,4 @@
-from os import system
-
-system("pip3 install Pyrogram opencv-contrib-python")
+"""pip3 install Pyrogram opencv-contrib-python"""
 
 from pyrogram import Client
 from time import time, sleep, gmtime, strftime
@@ -9,7 +7,7 @@ from numpy import zeros
 
 apiId = 10902934
 apiHash = "e84c6544e9fbe2555fb220db78ad512f"
-app = Client("my_account", apiId, apiHash)
+app = Client("myAccount", apiId, apiHash)
 
 
 async def main() -> None:
