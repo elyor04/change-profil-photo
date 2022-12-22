@@ -1,6 +1,4 @@
 __pycache__
-
-*.jpg
-*.session
+data
 
 test.py
