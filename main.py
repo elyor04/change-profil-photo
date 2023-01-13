@@ -9,8 +9,8 @@ from sys import argv
 WORK_DIR = Path(argv[0]).parent / "data"
 WORK_DIR.mkdir(exist_ok=True)
 
-apiId = 10902934
-apiHash = "e84c6544e9fbe2555fb220db78ad512f"
+apiId = ...
+apiHash = ...
 
 app = Client("myAccount", apiId, apiHash, workdir=WORK_DIR)
 photos = []
